@@ -1,0 +1,20 @@
+{
+  "name": "backendusuarios",
+  "version": "1.0.0",
+  "description": "este proyecto será de registro de usuarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Dayana Ch",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
